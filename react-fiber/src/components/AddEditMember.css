@@ -1,0 +1,16 @@
+.add-edit-member-container {
+  left: 30%;
+  top: calc(50vh - 200px);
+  width: 40%;
+  height: 400px;
+}
+
+.add-edit-member-container .add-edit-member-paper .add-edit-member-form {
+  padding: 20px;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.add-edit-member-container .add-edit-member-paper .actions {
+  justify-content: flex-end;
+}

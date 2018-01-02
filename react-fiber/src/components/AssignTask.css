@@ -1,0 +1,57 @@
+.assign-task-container {
+  left: 30%;
+  top: calc(50vh - 205px);
+  width: 40%;
+  height: 410px;
+  transition: left 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.assign-task-container .assign-task-paper .assign-task-form {
+  padding: 20px;
+  height: 210px;
+  overflow-y: auto;
+}
+
+.assign-task-container .assign-task-paper .assign-task-form .markers-data table tr > th:first-child,
+.assign-task-container .assign-task-paper .assign-task-form .markers-data table tr > td:first-child {
+  width: 0px!important;
+  display: none!important;
+}
+
+.assign-task-container .assign-task-paper .assign-task-form .markers-data .address-field {
+  width: 100%;
+}
+
+.assign-task-container .assign-task-paper .actions {
+  justify-content: space-between;
+}
+
+.assign-task-container .assign-task-paper .actions .actions-left,
+.assign-task-container .assign-task-paper .actions .actions-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.assign-task-container .assign-task-paper .actions .actions-left .next-prev .zmdi {
+  color: #00bcd4!important;
+}
+
+.assign-task-container .assign-task-paper .toggle-add-markers-enable-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 54px;
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.9);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: -22px;
+  top: 5px;
+  z-index: 9999;
+}
+
+.assign-task-container.add-markers-enabled {
+  left: 100%;
+}

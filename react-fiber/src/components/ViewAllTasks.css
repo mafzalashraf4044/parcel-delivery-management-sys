@@ -1,0 +1,27 @@
+.view-tasks-container {
+  left: 30%;
+  top: calc(50vh - 205px);
+  width: 40%;
+  height: 410px;
+  transition: left 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.view-tasks-container .view-tasks-paper .view-tasks-form {
+  padding: 20px;
+  height: 210px;
+  overflow-y: auto;
+}
+
+.view-tasks-container .view-tasks-paper .view-tasks-form .markers-data {
+  padding: 0 24px;
+}
+
+.view-tasks-container .view-tasks-paper .view-tasks-form .markers-data table tr > th:first-child,
+.view-tasks-container .view-tasks-paper .view-tasks-form .markers-data table tr > td:first-child {
+  width: 0px!important;
+  display: none!important;
+}
+
+.view-tasks-container .view-tasks-paper .actions {
+  justify-content: flex-end;
+}
